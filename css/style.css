@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    background: #3c086b url("../img/bg_header.jpg") center/cover;
+    padding: 74px 0 260px;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding-bottom: 190px;
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 29px;
+    padding: 25px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #28c8c6;
+    padding-bottom: 30px;
+}
+
+
+.header-heading {
+    font-size: 60px;
+    line-height: 55px;
+    color: #ffffff;
+    margin: 0 0 40px;
+}
+
+.header-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 0 26px;
+}
+
+.header-form select,
+.header-form input {
+    width: 282px;
+    height: 60px;
+    background-color: #fefefe;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 21;
+    color: #333333;
+    padding: 0 25px;
+    border: none;
+    margin-right: 16px;
+}
+
+.header-form input {
+    width: 268px;
+}
+
+.header-form input::placeholder {
+    color: #333333;
+}
+
+.header-form button {
+    width: 64px;
+    height: 59px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #28c7c5 url("../img/button.png") no-repeat center;
+    padding: 0;
+}
+
+.latest-design {
+    background: #f5f7f9 url("../img/bg_late_d.png") center/cover;
+    padding: 121px 0 315px;
+}
+
+.lt-heading {
+    font-size: 40px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+.lt-text {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.features {
+    background: #ffffff url("../img/bg_features.png") center/cover;
+    padding: 161px 0 150px;
+}
+
+.features-heading {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 33px;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.features-text {
+    text-align: center;
+    margin: 0 0 63px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.features-card {
+    display: inline-block;
+    width: 280px;
+    position: relative;
+}
+
+.features {
+    font-size: 20px;
+    position: relative;
+}
+
+.ellipse {
+    margin: 0 72px 31px 71px;
+}
+
+.card-heading {
+    font-size: 17px;
+    line-height: 29px;
+    margin: 0;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.ellipse-cart {
+    position: absolute;
+    top: 50px;
+    left: 112px;
+}
+
+.ellipse-plane {
+    position: absolute;
+    top: 50px;
+    left: 121px;
+}
+
+.ellipse-arrows {
+    position: absolute;
+    top: 45px;
+    left: 120px;
+}
+
+.ellipse-box {
+    position: absolute;
+    top: 41px;
+    left: 112px;
+}
